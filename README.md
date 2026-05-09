@@ -12,27 +12,27 @@ The core principles of DevOps include:
 ## 2. DevOps Lifecycle Stages
 The DevOps lifecycle is a continuous loop designed to ensure high-quality software delivery:
 
-**Planning**
+*  **Planning**
 This is where everything starts. The team figures out what needs to be built, why it matters, and how to break it into workable chunks. Tools like Jira or GitHub Projects live here.
  
-**Development**
+*  **Development**
 Developers write and version the actual code. This stage thrives on consistency, branching strategies, code reviews, and keeping things modular so nothing becomes a mess down the line.
  
-**Building**
+*  **Building**
 The code gets compiled, dependencies are pulled in, and the whole thing is packaged into something that can actually run. A broken build here means nothing moves forward.
  
-**Testing**
+*  **Testing**
 Automated tests catch bugs before they reach users. Unit tests, integration tests, security scans, the goal is to fail fast and fix early, not late.
  
-**Release**
+*  **Release**
 The build is versioned, approved, and prepared for deployment. This stage is about making sure what goes out is intentional and documented, not accidental.
  
-**Deployment**
+*  **Deployment**
 The application lands in its target environment, staging or production. Done well, this is automated, repeatable, and boring. Boring deployments are good deployments.
  
-**Operations**
+*  **Operations**
 Keeping the lights on. Managing infrastructure, handling configurations, and making sure the system behaves the way it's supposed to under real-world conditions.
  
-**Monitoring**
+*  **Monitoring**
 Logs, metrics, alerts, ets. this is how you know something is wrong before your users tell you. Good monitoring closes the feedback loop and feeds back into the next planning cycle.
  
